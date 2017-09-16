@@ -2,10 +2,16 @@
   "name": "gladys-bluetooth",
   "version": "0.1.0",
   "description": "Gladys Bluetooth Scanner",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pierre-Gilles Leymarie",
-  "license": "CC-BY-NC-SA-3.0"
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "emoji-strip": "^1.0.1",
+    "noble": "^1.8.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
 }
