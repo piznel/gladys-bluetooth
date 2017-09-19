@@ -47,6 +47,12 @@ nano config.js
 
 Edit each line with your configuration.
 
+To allow the node process to access bluetooth withou sudo rights, execute : 
+
+```
+sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
+```
+
 Then, execute :
 
 ```
