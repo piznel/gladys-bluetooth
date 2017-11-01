@@ -1,0 +1,23 @@
+{
+  "name": "gladys-flowercare",
+  "version": "0.1.0",
+  "description": "Gladys Bluetooth module to control Xiaomi Flower Care",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gladys",
+    "Xiaomi",
+    "Flower Care",
+    "Flower",
+    "Care"
+  ],
+  "author": "Nicolas Dubois",
+  "license": "ISC",
+  "dependencies": {
+    "emoji-strip": "^1.0.1",
+    "moment": "^2.19.1",
+    "request-promise": "^4.2.1"
+  }
+}
