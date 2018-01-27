@@ -53,7 +53,19 @@ To allow the node process to access bluetooth withou sudo rights, execute :
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 ```
 
-Then, execute :
+## Usage
+
+You first need to scan devices around you so they are added to Gladys. To do that, execute : 
+
+```
+node /home/pi/gladys-bluetooth/setup.js
+```
+
+You should see your bluetooth devices that are around. Then, go in Gladys and affect to each person in Gladys the devices they own. (For example, assign your Nut to your account in Gladys in the Device view)
+
+## Running the scanner
+
+Then, when all your devices are already in Gladys, execute:
 
 ```
 pm2 start /home/pi/gladys-bluetooth/app.js --name gladys-bluetooth
