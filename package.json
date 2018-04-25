@@ -13,6 +13,7 @@
     "noble": "^1.8.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
-    "xiaomi-gap-parser": "^1.0.2"
+    "xiaomi-gap-parser": "^1.0.2",
+    "flower-power": "^0.3.0"
   }
 }
